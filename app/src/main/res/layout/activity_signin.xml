@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signIn">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/liberator"
+        android:text="Najmu"
+        android:textColor="@color/Red"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="102dp"
+        android:layout_toEndOf="@+id/logo"
+        android:fontFamily="@font/ranger"
+        android:text="late"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/partnar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/chikon_font"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:text="Your next Chat Partner"/>
+
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:gravity="center"
+        android:fontFamily="@font/rumrisin"
+        android:hint="Name"
+        android:layout_below="@id/partnar"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:gravity="center"
+        android:fontFamily="@font/rumrisin"
+        android:hint="Email"
+        android:layout_below="@id/Name"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        app:passwordToggleEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        app:hintEnabled="true"
+        android:hint="Password"
+        android:inputType="textVisiblePassword"
+        android:fontFamily="@font/rumrisin"
+        android:layout_below="@id/email"/>
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:fontFamily="@font/ranger"
+        android:textSize="20dp"
+        android:backgroundTint="@color/Red"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:fontFamily="@font/chikon_font"
+        android:text="Remember, Najmul is simple, Namulate is Simplest"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

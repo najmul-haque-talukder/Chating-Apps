@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992350107380",
+    "project_id": "najmulate",
+    "storage_bucket": "najmulate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992350107380:android:1479a15868f501832a90a1",
+        "android_client_info": {
+          "package_name": "com.najmulsdeveloper.chatapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZJ5eHcOsVkky5lxvmXXLqJnJFqNCk8qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
